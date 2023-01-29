@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  padding-top: 2%;
+}
+
+.stats {
+  width: 50%;
+}
+
+table {
+  border-style: double;
+}
+
+th,
+td {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  padding: 8px;
+}
+
+.totalvalue {
+  text-align: center;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #99bd9357;
+}
+
+tr:hover {
+  background-color: #5ef444ca;
+}

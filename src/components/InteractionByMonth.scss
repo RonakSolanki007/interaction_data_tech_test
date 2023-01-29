@@ -1,0 +1,24 @@
+.container {
+  width: 20%;
+  .dropdowndiv {
+    margin-top: 2%;
+    border: 2px solid rgb(63, 79, 249);
+    height: fit-content;
+    width: 100%;
+    display: inline-grid;
+    font-weight: bold;
+    padding: 2%;
+
+    select {
+      margin-left: 10px;
+      height: fit-content;
+    }
+  }
+  .monthDataTable {
+    margin-top: 1%;
+    width: 100%;
+  }
+  .monthcount {
+    width: 50%;
+  }
+}
