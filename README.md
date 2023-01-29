@@ -1,12 +1,12 @@
-# interaction_data_tech_test
+# Instructions to run this project locally
 
-This project is tech test submitted by Ronak for Substantive Research Ltd.
-Stack: React
+-- Kindly read the [document](https://docs.google.com/document/d/1N6IZE1LtPwLpAzcmir5N38pOk-GgIdOB65Nw3H5aEl0/edit?usp=sharing) before going through the ReadMe
 
--Make sure to install all dependensies to avoid any error
+## 1. Install dependencies
+- Open the folder into terminal and run the command ``` npm install ```.
 
--command to run the developed app:
-npm start app
+## 2. Run the application locally
+- In the terminal run command : ```npm run start```
 
--command to run test
-npm test
+## 3. I have written a small unit test case to demonstrate jest
+- Run ```npm test``` to test whether <App/> components renders properly or not.
